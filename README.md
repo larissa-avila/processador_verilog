@@ -1,10 +1,13 @@
 # Processador Simples - Verilog
 Este repositório contém a implementação de um processador multiciclo simples de 16 bits, desenvolvido em Verilog. O projeto foi feito com fins didáticos, focando em modularidade e clareza de funcionamento dos componentes principais de uma CPU.
 
+
 ## Descrição
 O processador é composto por uma arquitetura básica com suporte a operações aritméticas e lógicas simples. Ele segue um modelo simplificado, executando uma instrução a cada 4 ciclos de clock a partir de sinais de controle gerados por uma unidade de controle. Possui 8 registradores de 16 bits, e uma Unidade Lógica Aritmética (ULA) capaz de fazer operações como soma e subtração.
 
+
 ## Arquivos do Projeto
+```text
 Processador
 ├── counter.v            # contador
 ├── decode.v             # decodificador de registradores
@@ -33,9 +36,11 @@ GtkWave (para visualizar a simulação)
 1. Entre no diretŕoio do processador e compile todos os módulos com o Icarus Verilog:
 ```bash
 iverilog -o output *.v
+
 2. Execute a simulação
 ```bash
 vvp output
+
 3. Visualize as formas de onda no GTKWave
 ```bash
 gtkwave testbench.vcd
