@@ -19,6 +19,7 @@ Processador
 ├── processor.v          # processador para unir as unidades
 ├── testbench.v          # teste bench com um programa simples
 ├── README.md            # Documento explicativo do projeto
+---
 
 ## Conjunto de intruções
 - ADD #Realiza a adição entre dois registradores
@@ -36,14 +37,17 @@ GtkWave (para visualizar a simulação)
 1. Entre no diretŕoio do processador e compile todos os módulos com o Icarus Verilog:
 ```bash
 iverilog -o output *.v
+---
 
 2. Execute a simulação
 ```bash
 vvp output
+---
 
 3. Visualize as formas de onda no GTKWave
 ```bash
 gtkwave testbench.vcd
+---
 
 #####Desenvolvido por [Larissa Rodrigues de Ávila](https://github.com/larissa-avila)
 
