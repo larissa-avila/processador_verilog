@@ -22,12 +22,12 @@ Processador
 ```
 
 ## Conjunto de intruções
-- ADD           #Realiza a adição entre dois registradores
-- SUB           #Realiza a subtração entre dois registradores
-- NAN           #Realiza a operação NAND entre dois registradores
-- REP           #Copia o valor de um regitrador para outro
-- LDI           #Carrega um valor em um registrador
-- OUT           #Coloca o valor de um registrador na barramento de saída
+- ADD    &nbsp;&nbsp;&nbsp;&nbsp;       #Realiza a adição entre dois registradores
+- SUB    &nbsp;&nbsp;&nbsp;&nbsp;       #Realiza a subtração entre dois registradores
+- NAN    &nbsp;&nbsp;&nbsp;&nbsp;       #Realiza a operação NAND entre dois registradores
+- REP    &nbsp;&nbsp;&nbsp;&nbsp;       #Copia o valor de um regitrador para outro
+- LDI    &nbsp;&nbsp;&nbsp;&nbsp;       #Carrega um valor em um registrador
+- OUT    &nbsp;&nbsp;&nbsp;&nbsp;       #Coloca o valor de um registrador na barramento de saída
 
 ## Requisitos para usar
 Icarus Verilog
