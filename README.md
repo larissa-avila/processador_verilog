@@ -8,7 +8,7 @@ O processador é composto por uma arquitetura básica com suporte a operações 
 
 ## Arquivos do Projeto
 ```text
-Processador
+processador
 ├── counter.v            # contador
 ├── decode.v             # decodificador de registradores
 ├── multiplexer.v        # multiplexador
@@ -18,7 +18,6 @@ Processador
 ├── control_unit.v       # unidade de controle
 ├── processor.v          # processador para unir as unidades
 ├── testbench.v          # teste bench com um programa simples
-├── README.md            # Documento explicativo do projeto
 ```
 
 ## Conjunto de intruções
