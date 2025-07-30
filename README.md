@@ -22,12 +22,12 @@ Processador
 ```
 
 ## Conjunto de intruções
-- ADD #Realiza a adição entre dois registradores
-- SUB #Realiza a subtração entre dois registradores
-- NAN #Realiza a operação NAND entre dois registradores
-- REP #Copia o valor de um regitrador para outro
-- LDI #Carrega um valor em um registrador
-- OUT #Coloca o valor de um registrador na barramento de saída
+- ADD           #Realiza a adição entre dois registradores
+- SUB           #Realiza a subtração entre dois registradores
+- NAN           #Realiza a operação NAND entre dois registradores
+- REP           #Copia o valor de um regitrador para outro
+- LDI           #Carrega um valor em um registrador
+- OUT           #Coloca o valor de um registrador na barramento de saída
 
 ## Requisitos para usar
 Icarus Verilog
@@ -47,7 +47,7 @@ vvp output
 gtkwave testbench.vcd
 ```
 
-#####Desenvolvido por [Larissa Rodrigues de Ávila](https://github.com/larissa-avila)
+##### Desenvolvido por [Larissa Rodrigues de Ávila](https://github.com/larissa-avila)
 
 
 
